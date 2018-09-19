@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0229187D9C4895A89B3CEA76 /* Pods_FirebaseVsCloutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364FB732E88E779485E80891 /* Pods_FirebaseVsCloutKit.framework */; };
 		812D3BEB2152A92700B11790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3BEA2152A92700B11790 /* AppDelegate.swift */; };
-		812D3BED2152A92700B11790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3BEC2152A92700B11790 /* ViewController.swift */; };
 		812D3BF02152A92700B11790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812D3BEE2152A92700B11790 /* Main.storyboard */; };
 		812D3BF22152A92800B11790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812D3BF12152A92800B11790 /* Assets.xcassets */; };
 		812D3BF52152A92800B11790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812D3BF32152A92800B11790 /* LaunchScreen.storyboard */; };
+		812D3BFE2152AE0100B11790 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 812D3BFD2152AE0100B11790 /* GoogleService-Info.plist */; };
+		812D3C012152B19D00B11790 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812D3C002152B19D00B11790 /* CloudKit.framework */; };
+		812D3C032152B1BF00B11790 /* CloudKitPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C022152B1BF00B11790 /* CloudKitPerson.swift */; };
+		812D3C052152B1C800B11790 /* FirebasePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C042152B1C800B11790 /* FirebasePerson.swift */; };
+		812D3C082152BA1B00B11790 /* CloutKitPersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C072152BA1B00B11790 /* CloutKitPersonController.swift */; };
+		812D3C0B2152C66C00B11790 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C0A2152C66C00B11790 /* PersonTableViewCell.swift */; };
+		812D3C0E2152C99500B11790 /* CloutKitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D3C0D2152C99500B11790 /* CloutKitTableViewController.swift */; };
+		817799DC2152DEFD00A6FB24 /* CreatePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817799DB2152DEFD00A6FB24 /* CreatePersonViewController.swift */; };
+		817799DE2152EAC700A6FB24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817799DD2152EAC700A6FB24 /* Extensions.swift */; };
+		817799E12152F14500A6FB24 /* FireBasePersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817799E02152F14500A6FB24 /* FireBasePersonController.swift */; };
+		817799E32153064D00A6FB24 /* FirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817799E22153064D00A6FB24 /* FirebaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		364FB732E88E779485E80891 /* Pods_FirebaseVsCloutKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseVsCloutKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E64246B8652380FF5E907DD /* Pods-FirebaseVsCloutKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseVsCloutKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseVsCloutKit/Pods-FirebaseVsCloutKit.debug.xcconfig"; sourceTree = "<group>"; };
 		812D3BE72152A92700B11790 /* FirebaseVsCloutKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseVsCloutKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812D3BEA2152A92700B11790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		812D3BEC2152A92700B11790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		812D3BEF2152A92700B11790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		812D3BF12152A92800B11790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812D3BF42152A92800B11790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812D3BF62152A92800B11790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812D3BFD2152AE0100B11790 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		812D3BFF2152B19B00B11790 /* FirebaseVsCloutKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseVsCloutKit.entitlements; sourceTree = "<group>"; };
+		812D3C002152B19D00B11790 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		812D3C022152B1BF00B11790 /* CloudKitPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPerson.swift; sourceTree = "<group>"; };
+		812D3C042152B1C800B11790 /* FirebasePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePerson.swift; sourceTree = "<group>"; };
+		812D3C072152BA1B00B11790 /* CloutKitPersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloutKitPersonController.swift; sourceTree = "<group>"; };
+		812D3C0A2152C66C00B11790 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		812D3C0D2152C99500B11790 /* CloutKitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloutKitTableViewController.swift; sourceTree = "<group>"; };
+		817799DB2152DEFD00A6FB24 /* CreatePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonViewController.swift; sourceTree = "<group>"; };
+		817799DD2152EAC700A6FB24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		817799E02152F14500A6FB24 /* FireBasePersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBasePersonController.swift; sourceTree = "<group>"; };
+		817799E22153064D00A6FB24 /* FirebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewController.swift; sourceTree = "<group>"; };
+		9DFBCE8F4477014737FDD83D /* Pods-FirebaseVsCloutKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseVsCloutKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseVsCloutKit/Pods-FirebaseVsCloutKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229187D9C4895A89B3CEA76 /* Pods_FirebaseVsCloutKit.framework in Frameworks */,
+				812D3C012152B19D00B11790 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		562CC366BA356E361FE5DC95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E64246B8652380FF5E907DD /* Pods-FirebaseVsCloutKit.debug.xcconfig */,
+				9DFBCE8F4477014737FDD83D /* Pods-FirebaseVsCloutKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		812D3BDE2152A92700B11790 = {
 			isa = PBXGroup;
 			children = (
 				812D3BE92152A92700B11790 /* FirebaseVsCloutKit */,
 				812D3BE82152A92700B11790 /* Products */,
+				562CC366BA356E361FE5DC95 /* Pods */,
+				A773B07E00B5DB41601E894D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,81 @@
 		812D3BE92152A92700B11790 /* FirebaseVsCloutKit */ = {
 			isa = PBXGroup;
 			children = (
+				812D3BFF2152B19B00B11790 /* FirebaseVsCloutKit.entitlements */,
 				812D3BEA2152A92700B11790 /* AppDelegate.swift */,
-				812D3BEC2152A92700B11790 /* ViewController.swift */,
-				812D3BEE2152A92700B11790 /* Main.storyboard */,
-				812D3BF12152A92800B11790 /* Assets.xcassets */,
-				812D3BF32152A92800B11790 /* LaunchScreen.storyboard */,
-				812D3BF62152A92800B11790 /* Info.plist */,
+				812D3C0F2152C99800B11790 /* ViewController */,
+				812D3C0C2152C66F00B11790 /* Views */,
+				812D3C092152BEEC00B11790 /* Controllers */,
+				812D3C062152B1CC00B11790 /* Models */,
+				812D3BFC2152A93300B11790 /* Resources */,
 			);
 			path = FirebaseVsCloutKit;
+			sourceTree = "<group>";
+		};
+		812D3BFC2152A93300B11790 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				817799DF2152EB7600A6FB24 /* Helpers */,
+				812D3BF12152A92800B11790 /* Assets.xcassets */,
+				812D3BEE2152A92700B11790 /* Main.storyboard */,
+				812D3BF32152A92800B11790 /* LaunchScreen.storyboard */,
+				812D3BFD2152AE0100B11790 /* GoogleService-Info.plist */,
+				812D3BF62152A92800B11790 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		812D3C062152B1CC00B11790 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				812D3C022152B1BF00B11790 /* CloudKitPerson.swift */,
+				812D3C042152B1C800B11790 /* FirebasePerson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		812D3C092152BEEC00B11790 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				812D3C072152BA1B00B11790 /* CloutKitPersonController.swift */,
+				817799E02152F14500A6FB24 /* FireBasePersonController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		812D3C0C2152C66F00B11790 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				812D3C0A2152C66C00B11790 /* PersonTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		812D3C0F2152C99800B11790 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				812D3C0D2152C99500B11790 /* CloutKitTableViewController.swift */,
+				817799DB2152DEFD00A6FB24 /* CreatePersonViewController.swift */,
+				817799E22153064D00A6FB24 /* FirebaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		817799DF2152EB7600A6FB24 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				817799DD2152EAC700A6FB24 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A773B07E00B5DB41601E894D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812D3C002152B19D00B11790 /* CloudKit.framework */,
+				364FB732E88E779485E80891 /* Pods_FirebaseVsCloutKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 812D3BF92152A92800B11790 /* Build configuration list for PBXNativeTarget "FirebaseVsCloutKit" */;
 			buildPhases = (
+				16D06ABB7C8648FD4D8A0BD4 /* [CP] Check Pods Manifest.lock */,
 				812D3BE32152A92700B11790 /* Sources */,
 				812D3BE42152A92700B11790 /* Frameworks */,
 				812D3BE52152A92700B11790 /* Resources */,
+				E609FBE2C64754DB1BC39B52 /* [CP] Embed Pods Frameworks */,
+				E5B57B0264DA5A0B4E35B167 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +204,14 @@
 				TargetAttributes = {
 					812D3BE62152A92700B11790 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812D3BF52152A92800B11790 /* LaunchScreen.storyboard in Resources */,
+				812D3BFE2152AE0100B11790 /* GoogleService-Info.plist in Resources */,
 				812D3BF22152A92800B11790 /* Assets.xcassets in Resources */,
 				812D3BF02152A92700B11790 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +247,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16D06ABB7C8648FD4D8A0BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseVsCloutKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B57B0264DA5A0B4E35B167 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseVsCloutKit/Pods-FirebaseVsCloutKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E609FBE2C64754DB1BC39B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseVsCloutKit/Pods-FirebaseVsCloutKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseVsCloutKit/Pods-FirebaseVsCloutKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		812D3BE32152A92700B11790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812D3BED2152A92700B11790 /* ViewController.swift in Sources */,
 				812D3BEB2152A92700B11790 /* AppDelegate.swift in Sources */,
+				812D3C052152B1C800B11790 /* FirebasePerson.swift in Sources */,
+				817799E32153064D00A6FB24 /* FirebaseViewController.swift in Sources */,
+				812D3C0E2152C99500B11790 /* CloutKitTableViewController.swift in Sources */,
+				817799DE2152EAC700A6FB24 /* Extensions.swift in Sources */,
+				812D3C032152B1BF00B11790 /* CloudKitPerson.swift in Sources */,
+				812D3C0B2152C66C00B11790 /* PersonTableViewCell.swift in Sources */,
+				817799DC2152DEFD00A6FB24 /* CreatePersonViewController.swift in Sources */,
+				817799E12152F14500A6FB24 /* FireBasePersonController.swift in Sources */,
+				812D3C082152BA1B00B11790 /* CloutKitPersonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +467,13 @@
 		};
 		812D3BFA2152A92800B11790 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E64246B8652380FF5E907DD /* Pods-FirebaseVsCloutKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseVsCloutKit/FirebaseVsCloutKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94C4Q5DME5;
-				INFOPLIST_FILE = FirebaseVsCloutKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseVsCloutKit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +487,13 @@
 		};
 		812D3BFB2152A92800B11790 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFBCE8F4477014737FDD83D /* Pods-FirebaseVsCloutKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseVsCloutKit/FirebaseVsCloutKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94C4Q5DME5;
-				INFOPLIST_FILE = FirebaseVsCloutKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseVsCloutKit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XBL-ca-bvW">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Firebase-->
+        <scene sceneID="yhO-r6-ceB">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="ROe-td-7kg" customClass="FirebaseViewController" customModule="FirebaseVsCloutKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gAQ-Sd-cdA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.83652053718096242" blue="0.85597955334686493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="ROe-td-7kg" id="uA4-Gv-3mD"/>
+                            <outlet property="delegate" destination="ROe-td-7kg" id="nx8-mb-jcL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Firebase" id="u1f-LH-oZj"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ILg-GB-USX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="-402"/>
+        </scene>
+        <!--CloutKit-->
+        <scene sceneID="21l-0D-JEB">
+            <objects>
+                <tableViewController id="zmI-2M-4DM" customClass="CloutKitTableViewController" customModule="FirebaseVsCloutKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3Qf-Se-pwR">
+                        <rect key="frame" x="0.0" y="0.0" width="990.5" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.87319725525083669" green="0.98829740290000001" blue="0.96985508569457768" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="zmI-2M-4DM" id="k51-ao-O48"/>
+                            <outlet property="delegate" destination="zmI-2M-4DM" id="qx0-i1-GYX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="CloutKit" id="n0y-ly-12W"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REW-cx-Vbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1387" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uwB-i4-TmL">
+            <objects>
+                <navigationController id="qNb-Qs-9Tj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fmR-Ge-rJD">
+                        <rect key="frame" x="0.0" y="20" width="990.5" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zmI-2M-4DM" kind="relationship" relationship="rootViewController" id="OTY-PA-xXI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pMu-RY-P2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="331"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2g0-b2-Ds8">
+            <objects>
+                <navigationController id="tpZ-JQ-yLa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZoO-u8-SUE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ROe-td-7kg" kind="relationship" relationship="rootViewController" id="6Wj-P8-ZHk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kpy-2m-z56" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="-402"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="XnC-j1-uAZ">
+            <objects>
+                <splitViewController id="XBL-ca-bvW" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="tpZ-JQ-yLa" kind="relationship" relationship="masterViewController" id="h2r-sg-Qdp"/>
+                        <segue destination="qNb-Qs-9Tj" kind="relationship" relationship="detailViewController" id="Xp2-we-Yzb"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WtQ-2P-kZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-561" y="-70"/>
+        </scene>
+    </scenes>
+</document>
